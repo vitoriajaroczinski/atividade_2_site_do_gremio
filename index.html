@@ -7,6 +7,7 @@
 </head>
 <body>
     <header>
+        
 
         <div id="navbar">
             
@@ -25,7 +26,7 @@
 
     </header>
     <main>
-
+        <div class="barra-sticky"> Exemplo de Sticky Bar - barra que gruda</div>
         <section class="noticias">
 
             <div class="noticia">
@@ -42,6 +43,32 @@
 
         </section>
 
+        <section class="posicao">
+            <h2>Position: static</h2>
+            <div class="pos-box pos-static">
+                Sou uma static padrão. Valores top e left não mudam minha posição.
+            </div>
+        </section>
+
+        <section class="posicao">
+            <h2>Position: relative</h2>
+            <div class="pos-box">Caixa normal</div>
+
+            <div class="pos-box pos-relative">
+                Caixa anormal: ela se move, mas continua tendo espaço reservado
+            </div>
+
+            <div class="pos-box">Caixa normal</div>
+        </section>
+
+        <section class="posicao">
+        <h2>Position: absolute</h2>
+
+        <div class="pai">
+            Pai (relativo)
+            <div class="filho">Filho</div>
+        </div>
+            <p class="pos-texto">O filho não empurra nada, e ele fica por cima, colado no pai</p>
     </main>
     <footer>
         <p> Todos os direitos reservados ao professor Ícaro. </p>
